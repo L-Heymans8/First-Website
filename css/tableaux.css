@@ -1,0 +1,68 @@
+/* Mise en forme de table genral tableau */
+
+table {
+    width: 100%;
+    empty-cells: hide;
+}
+
+td,
+th {
+    border: 1px solid rgb(0, 0, 0);
+    text-align: center;
+    padding: 7px;
+}
+
+th,
+td:hover {
+    background-color: #214567;
+    color: white;
+}
+
+.table1 th {
+    width: 25%;
+}
+
+tr:hover {
+    background-color: rgb(61, 59, 59);
+}
+
+/* mise e, fotrme table 2 */
+
+.table2 {
+    border-collapse: collapse;
+
+}
+
+/* mise en fotrme table 3  */
+
+
+.table3{
+    border-spacing: 0;
+}
+
+.table3 td{
+    border: .5px solid black;
+
+}
+
+
+.table4 td:hover{
+    background-color:rgb(62, 59, 59);
+
+}
+
+.table5{
+    color: rgb(133, 133, 255);
+    background-color: rgb(62, 63, 63);
+}
+
+.table5 tr:hover{
+    background-color: black;
+    color: white;
+}
+
+.table5 th, td{
+    border: 0;
+}
+
+

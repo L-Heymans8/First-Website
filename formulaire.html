@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Mon premier site Web</title>
+    <meta name="description" content="Mise en forme de formulaire.">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Macondo&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="javascript.html">Javascript</a></li>
+                <li><a href="tableaux.html">Les tableaux</a></li>
+                <li><a href="formulaire.html">Les formulaires</a></li>
+                <li><a href="https://www.interface3namur.be" target="_blank">interface3.Namur</a></li>
+                <link rel="stylesheet" href="css/formulaire.css">
+            </ul>
+        </nav>
+
+    </header>
+    <main>
+
+        <div class="d-flex flex-column justify-content-center w-100 h-100">
+
+            <div class="d-flex flex-column justify-content-center align-items-center">
+                
+                <div class="btn-group my-5">
+                    <a href="https://codepen-api-export-production.s3.us-west-2.amazonaws.com/zip/PEN/pyBNzX/1578778289271/pure-css-gradient-background-animation.zip" class="btn btn-outline-light" aria-current="page"><i class="fas fa-file-download me-2"></i> </a>
+                    <a href="https://codepen.io/P1N2O/full/pyBNzX" class="btn btn-outline-light"><i class="fas fa-expand ms-2"></i></a>
+                </div>
+                <a href="https://manuel.pinto.dev" class="text-decoration-none">
+                    <h5 class="fw-light text-white m-0"></h5>
+                </a>
+            </div>
+        </div>
+        </div>
+
+        <h1>Formulaires</h1>
+        <section>
+            <article>
+                <h3 class="souligne">La balise "input"</h3>
+                <input type="text">
+                <input type="color">
+                <input type="checkbox">
+                <input type="file">
+                <input type="range">
+                <input type="date">
+                <input type="password">
+            </article>
+            <article>
+                <h3 class="souligne">Mise en place et en forme d'un formulaire</h3>
+
+                <form action="javascript:alert('Hello world')" method="get">
+                    <fieldset>
+                        <legend class="underline">Connexion</legend>
+                        <label for="user name">Nom d'utilisateur :</label><input type="text" name="userName"
+                            id="userName">
+                            <label for="password">Mot de passe:</label>
+                        <!-- <label for="userPassword">MDP</label> -->
+                        <input type="password" name="userPassword" id="userPassword">
+                    </fieldset><input type="submit">
+
+
+                </form>
+            </article>
+            <article>
+                <h3 class="souligne">Utilisation du fieldset</h3>
+                    <form action="">
+                        <fieldset>
+                            <legend class="underline">Vos coordonnées</legend><label for="userFirstName"></label>
+                            <input type="text" name="userLastName" id="userLastName">
+                            <label for="userMail"Votre adresse mail :</label>
+                            <input type="text" name="userMail" id="userMail">
+                        </fieldset>
+                        <fieldset>
+                            <legend class="underline">Votre message </legend>
+                            <label for="userMsg">Entrez votre message ici :</label>
+                            <input type="textarea" name="userMsg" id="userMsg">
+                        </fieldset>
+                    </form>
+                
+            </article>
+        </section>
+    </main>
+
+    <footer>
+        <h2>Informations </h2>
+        <p>Site web réalisé dans le cadre de la formation</p>
+        <p><strong>Dev FullStack JS</strong></p>
+        <p><strong> Lucas HEYMANS </strong> &copy;2022</p>
+    </footer>
+
+
+</body>
+
+</html>

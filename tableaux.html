@@ -1,0 +1,358 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Mon premier site Web</title>
+    <meta name="description" content="Mise en forme de tableaux.">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Macondo&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/tableaux.css">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="javascript.html">Javascript</a></li>
+                <li><a href="tableaux.html">Les tableaux</a></li>
+                <li><a href="formulaire.html">Les formulaires</a></li>
+                <li><a href="https://www.interface3namur.be" target="_blank">interface3.Namur</a></li>
+            </ul>
+        </nav>
+
+    </header>
+    <main>
+
+        <h1>Les tableaux</h1>
+        <section>
+            <h2>Mise en forme des tableaux </h2>
+            <article>
+                <h3>table simple</h3>
+
+                <table>
+                    <tr>
+                        <td>1</td>
+                        <td>2</td>
+                        <td>3</td>
+                        <td>4</td>
+                        <td>5</td>
+                    </tr>
+                    <tr>
+                        <td>6</td>
+                        <td>7</td>
+                        <td>8</td>
+                        <td>9</td>
+                        <td>10</td>
+                    </tr>
+                    <tr>
+                        <td>11</td>
+                        <td>12</td>
+                        <td>13</td>
+                        <td>14</td>
+                        <td>15</td>
+                    </tr>
+                    <tr>
+                        <td>16</td>
+                        <td>17</td>
+                        <td>18</td>
+                        <td>19</td>
+                        <td>20</td>
+                    </tr>
+                </table>
+
+            </article>
+
+            <article>
+                <h3>Les en-têtes</h3>
+                <table>
+                    <tr>
+                        <th>Titre col1</th>
+                        <th>Titre col2</th>
+                        <th>Titre col3</th>
+                    </tr>
+                    <tr>
+                        <td>1</td>
+                        <td>2</td>
+                        <td>3</td>
+                    </tr>
+                    <tr>
+                        <td>4</td>
+                        <td>5</td>
+                        <td>6</td>
+                    </tr>
+                    <tr>
+                        <td>7</td>
+                        <td>8</td>
+                        <td>9</td>
+                    </tr>
+                </table>
+            </article>
+            <article>
+                <h3>Tableaux organisé en lignes</h3>
+                <table class="table1">
+                    <tr>
+                        <th>Titre de ligne 1</th>
+                        <td>1</td>
+                        <td>2</td>
+                        <td>3</td>
+                    </tr>
+                    <tr>
+                        <th>Titre de ligne 2</th>
+                        <td>4</td>
+                        <td>5</td>
+                        <td>6</td>
+                    </tr>
+                    <tr>
+                        <th>Titre de ligne 3</th>
+                        <td>7</td>
+                        <td>8</td>
+                        <td>9</td>
+                    </tr>
+                    <tr>
+                        <th>Titre de ligne 4</th>
+                        <td>10</td>
+                        <td>11</td>
+                        <td>12</td>
+                    </tr>
+                </table>
+            </article>
+            <article>
+                <h3>Border collapse</h3>
+                <table>
+                    <tr>
+                        <th>Titre col1</th>
+                        <th>Titre col2</th>
+                        <th>Titre col3</th>
+                        <th>Titre col4</th>
+                    </tr>
+
+                    <tr>
+                        <td>1</td>
+                        <td>2</td>
+                        <td>3</td>
+                        <td>4</td>
+                    </tr>
+                    <tr>
+                        <td>5</td>
+                        <td>6</td>
+                        <td>7</td>
+                        <td>8</td>
+                    </tr>
+                    <tr>
+                        <td>9</td>
+                        <td>10</td>
+                        <td>11</td>
+                        <td>12</td>
+                    </tr>
+
+                </table>
+            </article>
+            <article>
+                <h3>tableau ligne et colonnes</h3>
+                <table>
+                    <tr>
+                        <th></th>
+                        <th>Col1</th>
+                        <th>Col2</th>
+                        <th>Col3</th>
+                    </tr>
+                    <table class="table3"></table>
+                    <tr>
+                        <th>ligne 1</th>
+                        <td>1</td>
+                        <td>2</td>
+                        <td>3</td>
+                    </tr>
+                    <tr>
+                        <th>ligne 2</th>
+                        <td>4</td>
+                        <td>5</td>
+                        <td>6</td>
+                    </tr>
+                    <tr>
+                        <th>ligne 3</th>
+                        <td>7</td>
+                        <td>8</td>
+                        <td>9</td>
+                    </tr>
+                </table>
+            </article>
+
+            <article>
+                <h3>Separations thead, tbody, tfoot</h3>
+                <thead>
+                    <tr>
+                        <th>Nom de l'employée</th>
+                        <th>Salaire</th>
+                    </tr>
+                </thead>
+                <tbody></tbody>
+                <tfoot></tfoot>
+            </article>
+
+            <article>
+                <h3>fusion des cellules</h3>
+                <table>
+                    <tr>
+                        <th>col1</th>
+                        <th>col2</th>
+                        <th>Col3</th>
+                    </tr>
+                    <tr>
+                        <td>1</td>
+                        <td>2</td>
+                        <td>3</td>
+                    </tr>
+                    <tr>
+                        <td colspan="2">4</td>
+                        <td>5</td>
+                    </tr>
+                    <tr>
+                        <td>6</td>
+                        <td>7</td>
+                        <td rowspan="2">8</td>
+                    </tr>
+                    <tr>
+                        <td>9</td>
+                        <td>10</td>
+                    </tr>
+                </table>
+            </article>
+
+            <article>
+                <table class="table4">
+                    <tr>
+                        <th>nom</th>
+                        <th>mail</th>
+                        <th>date</th>
+                    </tr>
+                    <tr>
+                        <td>a</td>
+                        <td>b</td>
+                        <td>8</td>
+                    </tr>
+                    <tr>
+                        <td>d</td>
+                        <td>e</td>
+                        <td>3</td>
+                    </tr>
+                    <tr>
+                        <td>g</td>
+                        <td>h</td>
+                        <td>3</td>
+                    </tr>
+                    <tr>
+                        <td>j</td>
+                        <td>j</td>
+                        <td>4</td>
+                    </tr>
+                    <tr>
+                        <td>l</td>
+                        <td>m</td>
+                        <td>4</td>
+                    </tr>
+                </table>
+
+
+                <table>
+                    <tr>
+                        <td>Nom prenom</td>
+                        <td>hasagi</td>
+                        <td>hasagi</td>
+                        <td>hasagi</td>
+                        <td>hasagi</td>
+                        <td>hasagi</td>
+                    </tr>
+                    <tr>
+                        <td>mail</td>
+                        <td>hasagi</td>
+                        <td>hasagi</td>
+                        <td>hasagi</td>
+                        <td>hasagi</td>
+                        <td>hasagi</td>
+                    </tr>
+                    <tr>
+                        <td>date</td>
+                        <td>hasagi</td>
+                        <td>hasagi</td>
+                        <td>hasagi</td>
+                        <td>hasagi</td>
+                        <td>hasagi</td>
+                    </tr>
+                </table>
+            </article>
+
+            <article>
+                <table class="table5">
+                    <tr>
+                        <th>Session1</th>
+                        <th>Session2</th>
+                        <th>Session3</th>
+                    </tr>
+                    <tr>
+                        <td>ligne1-cellule1</td>
+                        <td>ligne1-cellule</td>
+                        <td>ligne1-cellule</td>
+                    </tr>
+                    <tr>
+                        <td>ligne1-cellule</td>
+                        <td>ligne1-cellule</td>
+                        <td>ligne1-cellule</td>
+                    </tr>
+                    <tr>
+                        <td>ligne1-cellule</td>
+                        <td>ligne1-cellule</td>
+                        <td>ligne1-cellule</td>
+                    </tr>
+                    <tr>
+                        <td>ligne1-cellule</td>
+                        <td>ligne1-cellule</td>
+                        <td>ligne1-cellule</td>
+                    </tr>
+                    <tr>
+                        <td>ligne1-cellule</td>
+                        <td>ligne1-cellule</td>
+                        <td>ligne1-cellule</td>
+                    </tr>
+                    <tr>
+                        <td>ligne1-cellule</td>
+                        <td>ligne1-cellule</td>
+                        <td>ligne1-cellule</td>
+                    </tr>
+                    <tr>
+                        <td>ligne1-cellule</td>
+                        <td>ligne1-cellule</td>
+                        <td>ligne1-cellule</td>
+                    </tr>
+                    <tr>
+                        <td>ligne1-cellule</td>
+                        <td>ligne1-cellule</td>
+                        <td>ligne1-cellule</td>
+                    </tr>
+                    <tr>
+                        <td>ligne1-cellule</td>
+                        <td>ligne1-cellule</td>
+                        <td>ligne1-cellule</td>
+                    </tr>
+                </table>
+            </article>
+        </section>
+    </main>
+
+    <footer>
+        <h2>Informations </h2>
+        <p>Site web réalisé dans le cadre de la formation</p>
+        <p><strong>Dev FullStack JS</strong></p>
+        <p><strong> Lucas HEYMANS </strong> &copy;2022</p>
+    </footer>
+
+
+</body>
+
+</html>
